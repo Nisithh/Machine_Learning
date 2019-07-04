@@ -1,9 +1,9 @@
 # Machine_Learning
 Types of Machine Learning:
 
-#### 1.Regression
-#### 2.Classification
-#### 3.Clustering
+#### 1. Regression
+#### 2. Classification
+#### 3. Clustering
 
 #### 1. Regression:- 
 Output variable predicted on the basis of past data over continuous/numeric dataset resulted to a continuous variable.
@@ -33,21 +33,18 @@ Predictive analysis is used to build the model on training data and the we predi
 
 
 ### Linear Regression Line:-
-
 1.The equation of a straight line is usually written this way:
 #### y = mx + b
-
-2.
 ![Capture1](https://user-images.githubusercontent.com/16449922/60673158-c2ad5a80-9e94-11e9-9e1e-f991ef37c201.JPG)
 
-#### 3.Slope(m)=(y2-y1)/(x2-x1)
-#### 4.Intercept= b
+#### 2.Slope(m)=(y2-y1)/(x2-x1)
+#### 3.Intercept= b
 
 
 5.Machine Learning Standard Notation for Straight line:
 #### y=β0+β1x
 
-6.For fitting the best line in Scatter Plot
+4.For fitting the best line in Scatter Plot
 We find out Residuals
 
 #### Residual(ei)=yi-ypred
