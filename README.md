@@ -58,4 +58,7 @@ RSS(Residual Sum Of Squares)=sqrt(e1)+sqrt(e2)+---+sqrt(en)
 --Now when we replace value of  Yi & Ypred
 RSS=Sqrt(y1-β0-β1x1)+Sqrt(y2-β0-β1x2)+----+Sqrt(yn-β0-β1xn)
 
-RSS= 
+![Capture2](https://user-images.githubusercontent.com/16449922/60679612-dca36900-9ea5-11e9-94f9-3823f085f02e.JPG)
+
+
+
