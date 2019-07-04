@@ -28,5 +28,34 @@ Types of Machine Learning:
 Predictive analysis is used to build the model on training data and the we predict on the test data if our model has passed the tests.
 
 
+Linear Regression Line:-
+
+1.The equation of a straight line is usually written this way:
+y = mx + b
+
+2.
+![Capture1](https://user-images.githubusercontent.com/16449922/60673158-c2ad5a80-9e94-11e9-9e1e-f991ef37c201.JPG)
+
+3.Slope(m)=(y2-y1)/(x2-x1)
+4.Intercept= b
 
 
+5.Machine Learning Standard Notation for Straight line:
+y=β0+β1x
+
+6.For fitting the best line in Scatter Plot
+We find out Residuals
+
+Residual(ei)=yi-ypred
+
+here ei is the error at a particlar datapoint
+yi is the actual value at that data point
+ypred is the predicted value at a particular datapoint
+
+To minimize the error here we use ordinary least squares method
+RSS(Residual Sum Of Squares)=sqrt(e1)+sqrt(e2)+---+sqrt(en)
+
+--Now when we replace value of  Yi & Ypred
+RSS=Sqrt(y1-β0-β1x1)+Sqrt(y2-β0-β1x2)+----+Sqrt(yn-β0-β1xn)
+
+RSS= 
