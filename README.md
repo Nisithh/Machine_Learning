@@ -1,9 +1,9 @@
 # Machine_Learning
 Types of Machine Learning:
 
-### 1.Regression
-### 2.Classification
-### 3.Clustering
+#### 1.Regression
+#### 2.Classification
+#### 3.Clustering
 
 #### 1. Regression:- 
 Output variable predicted on the basis of past data over continuous/numeric dataset resulted to a continuous variable.
@@ -16,7 +16,7 @@ for example:-Classifying emails on the basis of subjectline/content.
 #### 3. Clustering:-  
 Output Variable predicted on the basis of large amount of data over without labeled dataset resulted to a categorical                    variable after analysis, for example- customer segmentation on the large amount of customer dataset
 
-###### *----Point To be Noted---*
+##### *----Point To be Noted---*
 1.Regression and Classification Comes under Supervised Learning
 2.In both of them we have Labels
 3.Regression has Continuous/numeric labels  in dataset
