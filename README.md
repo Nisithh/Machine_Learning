@@ -50,7 +50,9 @@ We find out Residuals
 Residual(ei)=yi-ypred
 
 here ei is the error at a particlar datapoint
+
 yi is the actual value at that data point
+
 ypred is the predicted value at a particular datapoint
 
 To minimize the error here we use ordinary least squares method----
