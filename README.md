@@ -162,5 +162,7 @@ again now let's find out what does simple linear regression do:-
 
 ![Capture3](https://user-images.githubusercontent.com/16449922/60739336-27dd7a80-9f7f-11e9-8192-c379ac569128.JPG)
 
+![Capture1](https://user-images.githubusercontent.com/16449922/60739379-58251900-9f7f-11e9-8206-3c3262dd4536.JPG)
+
 
 
