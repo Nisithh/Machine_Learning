@@ -206,6 +206,12 @@ There are also a variety of statistical tests for normality, including the Kolmo
 
 Here is an example of a bad-looking normal quantile plot (an S-shaped pattern with P=0 for the A-D stat, indicating highly significant non-normality)
 
+![Capture1](https://user-images.githubusercontent.com/16449922/60741613-c1a92580-9f87-11e9-9dbe-4725c7c4ffe5.JPG)
+
+and here is an example of a good-looking one (a linear pattern with P=0.5 for the A-D stat, indicating no significant departure from normality):
+
+![Capture2](https://user-images.githubusercontent.com/16449922/60741671-f5844b00-9f87-11e9-875e-299d1104c2e4.JPG)
+
 
 
 #### How to fix:
