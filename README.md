@@ -56,13 +56,40 @@ yi is the actual value at that data point
 ypred is the predicted value at a particular datapoint
 
 To minimize the error here we use ordinary least squares method-
-#### RSS(Residual Sum Of Squares)=sqrt(e1)+sqrt(e2)+---+sqrt(en)
+![Capture3](https://user-images.githubusercontent.com/16449922/60716446-09568f80-9f3d-11e9-8e41-94ff5f693a25.JPG)
 
---Now when we replace value of  Yi & Ypred----
+#### Gradient Descent
+Gradient descent is an optimization algorithm used to find the values of the parameters (coefficients) of a function (f) that minimizes a given cost function (cost).
+ 
+Recall the equation for the line that's fit the data, is given as:
+y=β0+β1x
+Where β0 is the intercept of the fitted line and 
+β1 is the coefficient for the independent variable x.
 
-#### RSS=Sqrt(y1-β0-β1x1)+Sqrt(y2-β0-β1x2)+----+Sqrt(yn-β0-β1xn)
+we need to reduce the cost function for all data points, which is given as,
+![Capture4](https://user-images.githubusercontent.com/16449922/60717899-d910f000-9f40-11e9-8cad-d97c05fc0208.JPG)
 
-![Capture2](https://user-images.githubusercontent.com/16449922/60679612-dca36900-9ea5-11e9-94f9-3823f085f02e.JPG)
+Gradient Descent approach is one optimization technique to find β0,β1 so that cost function is minimized/Optimized.
+There are two types of Optimisation methods,
 
+##### Closed form solution
+##### Iterative form solution
 
+Here Gradient descent is an iterative form solution of order one. So to compute optimal thetas, we need to apply Gradient Descent to the Cost function, which is given as follows,
 
+![Capture1](https://user-images.githubusercontent.com/16449922/60719054-217ddd00-9f44-11e9-95e1-c3c37ddd7fef.JPG)
+
+#### Closed Form Solution:-
+![Capture1](https://user-images.githubusercontent.com/16449922/60719054-217ddd00-9f44-11e9-95e1-c3c37ddd7fef.JPG)
+J'(x)=0
+2x=0
+x=0
+then x(optimized)=0
+
+#### Iterative Form-(First Order):-
+Gradient descent is an iterative method of optimising an objective function, in our case the cost function, by moving toward the negative of the gradient.
+
+ To compute θ1, the equation :-
+ ![Capture2](https://user-images.githubusercontent.com/16449922/60720976-0c0bb180-9f4a-11e9-8593-c9907f2ee7a5.JPG)
+
+Where η is known as the learning rate, which defines the speed at which we want to move towards negative of the gradient. ​
