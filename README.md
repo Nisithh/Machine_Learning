@@ -8,16 +8,22 @@ Types of Machine Learning:
 #### 1. Regression:- 
 Output variable predicted on the basis of past data over continuous/numeric dataset resulted to a continuous variable.
 for example- 
+
 1.creating merit list for qualified students for Post graduation Programs on the basis of graduation score.
+
 2.You have a dataset of BMI (body mass index) and the fat percentage of the customers of a fitness centre. Now, the fitness centre wants to predict the fat percentage of a new customer, given his BMI.
+
 3.You want to predict the sales of a retail store based on its size, given the dataset of sales of retail stores and their sizes.
 
 #### 2. Classification:- 
 Output variable predicted on the basis of past data over categorical/label dataset resulted to a categorical variable.
 for example:-
 1.Classifying emails on the basis of subjectline/content.
+
 2.A Singapore-based startup Healin launched an app called JustShakeIt, which enables a user to send an emergency alert to emergency contacts and/or caregivers simply by shaking the phone with one hand. The program uses a machine learning algorithm to distinguish between actual emergency shakes and everyday jostling, using data with labels.
+
 3.You have collected data from a house rental website like commonfloor.com. The data has the rental prices of apartments and customer ratings as HIGH or LOW. You want to predict the customer rating, given the rental price of a new house.
+
 4.You want to predict whether a customer is likely to leave the telecom network
 
 #### 3. Clustering:-  
