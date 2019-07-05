@@ -37,6 +37,7 @@ Predictive analysis is used to build the model on training data and the we predi
 #### y = mx + b
 ![Capture1](https://user-images.githubusercontent.com/16449922/60673158-c2ad5a80-9e94-11e9-9e1e-f991ef37c201.JPG)
 
+
 #### 2.Slope(m)=(y2-y1)/(x2-x1)
 #### 3.Intercept= b
 
@@ -106,3 +107,9 @@ A large value of learning rate may oscillate your solution, and you may skip the
 
 ##### *---Point to be Noted---*
 The fit becomes better and better when R-Squared value is close to 1 or 1 ,i.e. if residuals are zero the R-Squared is 1
+
+
+#### Apart from R², there is one more quantity named RSE (Residual Square Error) which is linked to RSS. 
+
+![Capture4](https://user-images.githubusercontent.com/16449922/60734455-acbf9880-9f6d-11e9-9a56-273bfcb68a4e.JPG)
+
