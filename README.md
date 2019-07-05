@@ -153,3 +153,14 @@ Now
 
 where β0 & β1 with a hat notion represents that these are estimated values
 
+#### now is this sufficient for inference :-
+again now let's find out what does simple linear regression do:-
+
+![Capture2](https://user-images.githubusercontent.com/16449922/60739248-ddf49480-9f7e-11e9-8ae9-a983d105d25f.JPG)
+
+#### Looking at the graph statistically
+
+![Capture3](https://user-images.githubusercontent.com/16449922/60739336-27dd7a80-9f7f-11e9-8192-c379ac569128.JPG)
+
+
+
