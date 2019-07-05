@@ -153,7 +153,7 @@ Now
 
 where β0 & β1 with a hat notion represents that these are estimated values
 
-#### now is this sufficient for inference :-
+#### now is this sufficient for inference?-No
 again now let's find out what does simple linear regression do:-
 
 ![Capture2](https://user-images.githubusercontent.com/16449922/60739248-ddf49480-9f7e-11e9-8ae9-a983d105d25f.JPG)
