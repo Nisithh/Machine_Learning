@@ -104,3 +104,5 @@ A large value of learning rate may oscillate your solution, and you may skip the
 ##### R-Squared,TSS and RSS
 ![Capture3](https://user-images.githubusercontent.com/16449922/60733038-5d776900-9f69-11e9-8332-b7c4ec9ee2d5.JPG)
 
+##### *---Point to be Noted---*
+The fit becomes better and better when R-Squared value is close to 1 or 1 ,i.e. if residuals are zero the R-Squared is 1
