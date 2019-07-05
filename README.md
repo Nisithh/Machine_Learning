@@ -291,3 +291,44 @@ Seasonal patterns in the data are a common source of heteroscedasticity in the e
 
 If a log transformation has already been applied to a variable, then (as noted above) additive rather than multiplicative seasonal adjustment should be used, if it is an option that your software offers.  Additive seasonal adjustment is similar in principle to including dummy variables for seasons of the year.  Whether-or-not you should perform the adjustment outside the model rather than with dummies depends on whether you want to be able to study the seasonally adjusted data all by itself and on whether there are unadjusted seasonal patterns in some of the independent variables.  (The dummy-variable approach would address the latter problem.) 
 
+
+###### Hypothesis Testing in Linear Regression
+
+every time you perform a linear regression, you need to test whether the fitted line is a significant one or not or to simply put it, you need to test whether β1 is significant or not
+
+For that purpose we use Hypotheses testing in Linear Regresion-
+
+So if β1  is not significant, i.e. there is no relationship between X and y.
+
+So in order to perform the hypothesis test, we first propose the null hypothesis that 
+β1 is 0. And the alternative hypothesis thus becomes 
+β1 is not zero.
+
+### Null Hypothesis (H0): β1=0
+### Alternate Hypothesis (HA):β1≠0
+
+So this hypothesis test will be- 
+If you fail to reject the null hypothesis that would mean that β1 is zero which would simply mean that β1 is insignificant and of no use in the model. 
+
+Similarly, if you reject the null hypothesis, it would mean that β1 is not zero and the line fitted is a significant one.
+
+first compute the t-score (which is very similar to the Z-score) which is given by 
+
+(X−μ)/(s/√n)
+
+where μ is the population mean and s is the sample standard deviation which when divided by √n is also known as standard error.
+
+Using this, the t-score for estimated β1 comes out to be (since the null hypothesis is that 
+β1 is equal to zero):
+
+(β1−0)/SE(β1) --------here β1 is estimated β1
+
+Now, in order to perform the hypothesis test, you need to derive the p-value for the given beta.
+
+Let's do a quick recap of how do you calculate p-value:
+
+Calculate the value of t-score for the mean point (in this case, zero, according to the Null hypothesis that we have stated) on the distribution
+Calculate the p-value from the cumulative probability for the given t-score using the t-table
+Make the decision on the basis of the p-value with respect to the given value of β  (significance level)
+
+Now, if the p-value turns out to be less than 0.05, you can reject the null hypothesis and state that β1 is indeed significant.
