@@ -67,6 +67,7 @@ Where β0 is the intercept of the fitted line and
 β1 is the coefficient for the independent variable x.
 
 we need to reduce the cost function for all data points, which is given as,
+
 ![Capture4](https://user-images.githubusercontent.com/16449922/60717899-d910f000-9f40-11e9-8cad-d97c05fc0208.JPG)
 
 Gradient Descent approach is one optimization technique to find β0,β1 so that cost function is minimized/Optimized.
@@ -80,7 +81,9 @@ Here Gradient descent is an iterative form solution of order one. So to compute 
 ![Capture1](https://user-images.githubusercontent.com/16449922/60719054-217ddd00-9f44-11e9-95e1-c3c37ddd7fef.JPG)
 
 #### Closed Form Solution:-
+
 ![Capture1](https://user-images.githubusercontent.com/16449922/60719054-217ddd00-9f44-11e9-95e1-c3c37ddd7fef.JPG)
+
 J'(x)=0
 2x=0
 x=0
@@ -90,6 +93,7 @@ then x(optimized)=0
 Gradient descent is an iterative method of optimising an objective function, in our case the cost function, by moving toward the negative of the gradient.
 
  To compute θ1, the equation :-
+ 
  ![Capture2](https://user-images.githubusercontent.com/16449922/60720976-0c0bb180-9f4a-11e9-8593-c9907f2ee7a5.JPG)
 
 Where η is known as the learning rate, which defines the speed at which we want to move towards negative of the gradient. ​
