@@ -140,7 +140,7 @@ The fit becomes better and better when R-Squared value is close to 1 or 1 ,i.e. 
 
 ![Capture4](https://user-images.githubusercontent.com/16449922/60734455-acbf9880-9f6d-11e9-9a56-273bfcb68a4e.JPG)
 
-Conclusion:-
+#### Conclusion:-
 
 It is clear that no line can be found to pass through all points of the plot. Thus no functional relation exists between the two variables x and Y. However, the scatter plot does give an indication that a straight line may exist such that all the points on the plot are scattered randomly around this line. A statistical relation is said to exist in this case. The statistical relation between x and Y  may be expressed as follows:
 
