@@ -97,3 +97,6 @@ Gradient descent is an iterative method of optimising an objective function, in 
  ![Capture2](https://user-images.githubusercontent.com/16449922/60720976-0c0bb180-9f4a-11e9-8593-c9907f2ee7a5.JPG)
 
 Where η is known as the learning rate, which defines the speed at which we want to move towards negative of the gradient. ​
+
+##### *---Point to be noted---*
+A large value of learning rate may oscillate your solution, and you may skip the optimal solution(global minima). So it's always a good practice to choose a small value of learning rate and slowly move towards the negative of the gradient.
