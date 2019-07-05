@@ -100,3 +100,7 @@ Where η is known as the learning rate, which defines the speed at which we want
 
 ##### *---Point to be noted---*
 A large value of learning rate may oscillate your solution, and you may skip the optimal solution(global minima). So it's always a good practice to choose a small value of learning rate and slowly move towards the negative of the gradient.
+
+##### R-Squared,TSS and RSS
+![Capture3](https://user-images.githubusercontent.com/16449922/60733038-5d776900-9f69-11e9-8332-b7c4ec9ee2d5.JPG)
+
