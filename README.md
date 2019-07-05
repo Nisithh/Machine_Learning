@@ -140,10 +140,26 @@ The fit becomes better and better when R-Squared value is close to 1 or 1 ,i.e. 
 
 ![Capture4](https://user-images.githubusercontent.com/16449922/60734455-acbf9880-9f6d-11e9-9a56-273bfcb68a4e.JPG)
 
-final assumed true Linear Relationship:-
-y=β0+β1x+e
+Conclusion:-
 
-e is some error
+It is clear that no line can be found to pass through all points of the plot. Thus no functional relation exists between the two variables x and Y. However, the scatter plot does give an indication that a straight line may exist such that all the points on the plot are scattered randomly around this line. A statistical relation is said to exist in this case. The statistical relation between x and Y  may be expressed as follows:
+
+![Capture2](https://user-images.githubusercontent.com/16449922/60742000-2a44d200-9f89-11e9-8df8-8523a89cf76f.JPG)
+
+The above equation is the linear regression model that can be used to explain the relation between x and Y  that is seen on the scatter plot above. In this model, the mean value of Y (abbreviated as E(Y) ) is assumed to follow the linear relation:
+
+![Capture3](https://user-images.githubusercontent.com/16449922/60742028-421c5600-9f89-11e9-8c5d-9a3fea53aebc.JPG)
+
+
+The actual values of  (which are observed as yield from the chemical process from time to time and are random in nature) are assumed to be the sum of the mean value,E(Y) , and a random error term epsilon :
+
+![Capture1](https://user-images.githubusercontent.com/16449922/60741915-ece04480-9f88-11e9-9b36-bbe10b505245.JPG)
+
+The regression model here is called a simple linear regression model because there is just one independent variable x , in the model. In regression models, the independent variables are also referred to as regressors or predictor variables. The dependent variable Y  , is also referred to as the response. The slope,β1 , and the intercept,β0  , of the line E(Y) are called regression coefficients. The slope,β1 , can be interpreted as the change in the mean value of Y  for a unit change in x.
+
+The random error term,epsilon , is assumed to follow the normal distribution with a mean of 0 and variance of ![Capture4](https://user-images.githubusercontent.com/16449922/60742306-7cd2be00-9f8a-11e9-920d-5fd11fe8d12d.JPG)
+. Since  is the sum of this random term and the mean value,E(Y) , which is a constant, the variance of Y at any given value of x  is also ![Capture4](https://user-images.githubusercontent.com/16449922/60742306-7cd2be00-9f8a-11e9-920d-5fd11fe8d12d.JPG)
+. Therefore, at any given value of x, say xi , the dependent variable Y follows a normal distribution with a mean of β0+β1xi and a standard deviation of ![Capture4](https://user-images.githubusercontent.com/16449922/60742306-7cd2be00-9f8a-11e9-920d-5fd11fe8d12d.JPG)  . This is illustrated in the following figure.
 
 ![Capture2](https://user-images.githubusercontent.com/16449922/60738546-53ab3100-9f7c-11e9-8c8d-a24ec185236b.JPG)
 
