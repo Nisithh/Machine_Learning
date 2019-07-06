@@ -69,6 +69,8 @@ In the linear regression equation, X gets multiplied by 1.6 with no change in Y.
 5.Machine Learning Standard Notation for Straight line:
 #### y=β0+β1x
 
+## Simple linear regression
+
 4.For fitting the best line in Scatter Plot
 We find out Residuals
 
@@ -332,3 +334,36 @@ Calculate the p-value from the cumulative probability for the given t-score usin
 Make the decision on the basis of the p-value with respect to the given value of β  (significance level)
 
 Now, if the p-value turns out to be less than 0.05, you can reject the null hypothesis and state that β1 is indeed significant.
+
+
+## Multiple Linear Regression
+
+### Equation: Y=β0+β1X1+β2X2+...+βpXp+ϵ
+
+![Capture1](https://user-images.githubusercontent.com/16449922/60757339-e0122e00-a026-11e9-84d6-f4e9eb682d11.JPG)
+
+
+![Capture2](https://user-images.githubusercontent.com/16449922/60757479-f8834800-a028-11e9-944f-9c6ae232b688.JPG)
+
+### Multicollinearity
+
+![Capture3](https://user-images.githubusercontent.com/16449922/60758040-e35de780-a02f-11e9-86c5-864c87a540de.JPG)
+
+![Capture4](https://user-images.githubusercontent.com/16449922/60758193-07bac380-a032-11e9-8592-06d908dfa330.JPG)
+
+
+Some methods that can be used to deal with multicollinearity are:
+
+#### 1.Dropping variables
+
+Drop the variable which is highly correlated with others
+
+Pick the business interpretable variable
+
+#### 2.Create new variable using the interactions of the older variables
+
+Add interaction features, i.e. features derived using some of the original features
+
+#### 3.Variable transformations
+
+Principal Component Analysis 
