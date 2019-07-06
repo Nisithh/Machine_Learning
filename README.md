@@ -351,6 +351,14 @@ Now, if the p-value turns out to be less than 0.05, you can reject the null hypo
 
 ![Capture4](https://user-images.githubusercontent.com/16449922/60758193-07bac380-a032-11e9-8592-06d908dfa330.JPG)
 
+The common heuristic we follow for the VIF values is:
+
+> 10:  Definitely high VIF value and the variable should be eliminated.
+
+> 5:  Can be okay, but it is worth inspecting.
+
+< 5: Good VIF value. No need to eliminate this variable.
+
 
 Some methods that can be used to deal with multicollinearity are:
 
@@ -367,3 +375,5 @@ Add interaction features, i.e. features derived using some of the original featu
 #### 3.Variable transformations
 
 Principal Component Analysis 
+
+
