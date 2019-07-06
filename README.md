@@ -377,3 +377,54 @@ Add interaction features, i.e. features derived using some of the original featu
 Principal Component Analysis 
 
 
+#### Scaling:-
+
+It is important to note that scaling just affects the coefficients and none of the other parameters like t-statistic, F-statistic, p-values, R-squared, etc.
+
+There are two major methods to scale the variables, i.e. standardisation and MinMax scaling. Standardisation basically brings all of the data into a standard normal distribution with mean zero and standard deviation one. MinMax scaling, on the other hand, brings all of the data in the range of 0 and 1. The formulae in the background used for each of these methods are as given below: 
+
+Standardisation:  x=(x−mean(x))/sd(x)
+
+MinMax Scaling: x=(x−min(x))/(max(x)−min(x))
+
+
+![Capture1](https://user-images.githubusercontent.com/16449922/60758932-c11d9700-a03a-11e9-968e-2cfdd05f913f.JPG)
+
+
+![Capture2](https://user-images.githubusercontent.com/16449922/60758943-e5797380-a03a-11e9-81ab-ba64d9e5d33d.JPG)
+
+#### *---Point to be noted---*
+Adjusted R-squared on the other hand, penalises models based on the number of variables present in it. So if you add a variable and the Adjusted R-squared drops, you can be certain that that variable is insignificant to the model and shouldn't be used. So in the case of multiple linear regression, you should always look at the adjusted R-squared value in order to keep redundant variables out from your regression model.
+
+#### Feature Selection
+
+Try all possible combinations--
+2^p models for p features
+
+To get the optimal model, 
+you can always try all the possible combinations of independent variables and see which model fits the best. But this method is obviously, time-consuming and infeasible. Hence, you need some other method to get a decent model. This is where manual feature elimination comes in, where you:
+
+
+Build the model with all the features
+Drop the features that are least helpful in prediction (high p-value)
+Drop the features that are redundant (using correlations and VIF)
+Rebuild model and repeat
+
+![Capture3](https://user-images.githubusercontent.com/16449922/60759252-ae599100-a03f-11e9-8e7c-de330f7ab935.JPG)
+
+another reasonable approach is -
+Comination-
+first use automated coarse tuning
+then use manula fine tuning
+
+
+#### RFE
+
+the coefficients of a linear model), the goal of recursive feature elimination (RFE) is to select features by recursively considering smaller and smaller sets of features. First, the estimator is trained on the initial set of features and the importance of each feature is obtained either through a coef_ attribute or through a feature_importances_ attribute. Then, the least important features are pruned from current set of features. That procedure is recursively repeated on the pruned set until the desired number of features to select is eventually reached.
+
+#### *---Point to be noted---*
+A high p-value means that the variable is not significant, and hence, doesn't help much in prediction.
+
+
+
+
