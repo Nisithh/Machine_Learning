@@ -1,0 +1,4 @@
+The centroid or Geometric center of a plane figure is the arithmetic mean position of all the points in the figure ,
+
+
+informally ,it is a point at which cutout of the shape could be perfectly balanced on the tip of a pin.
