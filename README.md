@@ -1,5 +1,5 @@
-# Machine_Learning
-Types of Machine Learning:
+# Machine_Learning Models
+Types of Machine Learning models:
 
 #### 1. Regression
 #### 2. Classification
